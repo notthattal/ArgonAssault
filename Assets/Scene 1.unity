@@ -270,15 +270,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4000011839006638, guid: 4b73230d9aab5cb4ebb08b31f8e23593, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.18
+      value: -2.52
       objectReference: {fileID: 0}
     - target: {fileID: 4000011839006638, guid: 4b73230d9aab5cb4ebb08b31f8e23593, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.01
+      value: -0.93
       objectReference: {fileID: 0}
     - target: {fileID: 4000011839006638, guid: 4b73230d9aab5cb4ebb08b31f8e23593, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 4.84
+      value: 7.62
       objectReference: {fileID: 0}
     - target: {fileID: 4000011839006638, guid: 4b73230d9aab5cb4ebb08b31f8e23593, type: 3}
       propertyPath: m_LocalRotation.x
@@ -558,7 +558,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c4a188551a1ec499ba32d52bc11fe081, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  xSpeed: 4
+  xSpeed: 8
+  xRange: 5
+  ySpeed: 8
 --- !u!1 &1810520355
 GameObject:
   m_ObjectHideFlags: 0
@@ -721,7 +723,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   circuit: {fileID: 1810520357}
-  lookAheadForTargetOffset: 5
+  lookAheadForTargetOffset: 3
   lookAheadForTargetFactor: 0.1
   lookAheadForSpeedOffset: 10
   lookAheadForSpeedFactor: 0.2
