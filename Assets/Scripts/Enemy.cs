@@ -37,7 +37,6 @@ public class Enemy : MonoBehaviour
     {
         scoreBoard.ScoreHit(scorePerHit);
         hits--;
-        // todo consider hit FX
     }
 
     private void KillEnemy()
